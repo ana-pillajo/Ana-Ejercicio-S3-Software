@@ -12,6 +12,8 @@ public class Dispositivo {
 
     }
     public void setNombre(String nombre){
+        if(nombre == null)
+            System.out.println("El nombre no puede estar vacio");
         this.nombre=nombre;
     }
 
